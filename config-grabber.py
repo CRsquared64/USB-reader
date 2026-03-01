@@ -31,8 +31,8 @@ def monitor_usb(scanner_class, target_folder, dest_folder):
         time.sleep(5)
 
 if __name__ == "__main__":
-    dest = lines[1]
-    src = lines[3]
+    dest = lines[0]
+    src = lines[2]
     t = threading.Thread(target=monitor_usb, args=(Scanner, src, dest))
     t.daemon = True
     t.start()
