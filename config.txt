@@ -1,0 +1,4 @@
+C://programfiles/rapiscansystems/anubis/Cfg
+C://images
+config
+src
